@@ -104,10 +104,6 @@ The visualization results lead to several practical insights and recommendations
 - **Prioritize the 20–25 age group** where medal frequency is highest  
 - **Maintain Norway’s winter advantage** to secure continued success  
 
-<br>
-
-<img src="./screenshot/05_recommendations_chart.png" width="80%" alt="Recommendations summary"/>
-
 ---
 
 ## References
