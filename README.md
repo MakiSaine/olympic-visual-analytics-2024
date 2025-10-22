@@ -1,54 +1,52 @@
 # Olympic Visual Analytics 2024
 
-This project presents a comprehensive visual analytics case exploring the historical performance of Norwegian Olympic athletes.  
-The analysis was created and implemented in **Tableau Desktop** to demonstrate how storytelling and data visualization can uncover patterns, comparisons, and insights across more than a century of Olympic history.  
-
-The dashboard combines interactivity, narrative design, and statistical clarity to show how Norway’s athletes have evolved in participation and performance from 1896 to 2016.
+This project explores the performance and participation of Norwegian Olympic athletes using Tableau Desktop.  
+It combines storytelling, interactivity, and clear design to reveal data-driven insights from 1896 – 2016.
 
 ---
 
 ## Table of Contents
-- Overview  
-- Explanatory Text  
-- Design Explanation  
-- Dashboard Insights  
-- Recommendations  
-- References  
-- Files  
-- Author  
+- [Overview](#overview)
+- [Explanatory Text](#explanatory-text)
+- [Design Explanation](#design-explanation)
+- [Dashboard Insights](#dashboard-insights)
+- [Recommendations](#recommendations)
+- [References](#references)
+- [Files](#files)
+- [Author](#author)
 
 ---
 
 ## Overview
 
-The visualization is implemented as a Tableau story that includes three core charts: participation trends, medal distributions, and top athlete achievements.  
-Together, these reveal Norway’s evolution in the Olympics and its performance compared to other countries.
+The visualization includes participation trends, medal distributions, and top-athlete performance.  
+Together, they illustrate how Norway’s Olympic presence evolved compared to other nations.
 
 ### Norwegian Athlete Participation and Medal Distribution
-Above, the chart illustrates male and female athlete participation over time, alongside medal totals for Norwegian competitors.
+Above, the chart shows male and female athlete participation and medal counts.
 
-![Norwegian athlete participation and medals](docs/screenshots/01_olympics_overview.png)
+![Norwegian athlete participation and medals](./screenshot/01_olympics_overview.png)
 
 ### Global Medal and Participation Comparison
-This visualization compares Norway’s performance with other leading countries, highlighting historical strengths and emerging trends.
+This visualization compares Norway’s achievements to other leading countries.
 
-![Global Olympic overview](docs/screenshots/02_global_overview.png)
+![Global Olympic overview](./screenshot/02_global_overview.png)
 
 ---
 
 ## Explanatory Text
 
-Tableau was used to import and clean both datasets before combining them into a unified structure.  
-Unnecessary fields were removed, and column names were standardized for clarity. For instance:  
-- “City” was renamed to **Olympic City**  
-- “Region” was renamed to **Country**  
+Tableau was used to import, clean, and merge datasets for analysis.  
+Unnecessary columns were removed and renamed for clarity. For example:  
+- “City” → **Olympic City**  
+- “Region” → **Country**  
 
-Date fields were reformatted to *year-to-date*, and numerical columns such as *Age*, *Height*, and *Weight* were converted to numeric values.  
+Date fields were reformatted to *year-to-date*, and numerical data types were applied to *Age*, *Height*, and *Weight*.  
 Geographic roles were assigned to *Country* and *Olympic City* to enable accurate mapping and visualization.
 
-Below is a visual overview of the data cleaning and preparation workflow.
+Below is a visual overview of the data cleaning and preparation workflow:
 
-![Data cleaning workflow](docs/screenshots/03_data_cleaning.png)
+![Data cleaning workflow](./screenshot/03_data_cleaning.png)
 
 The combined dataset enabled an interactive dashboard that explores participation, medal distribution, and athlete performance across all Olympic Games between 1896 and 2016.  
 It was designed for analysts, historians, coaches, athletes, policymakers, and the general public — anyone interested in understanding Norwegian sports achievements through a data-driven lens.
@@ -57,7 +55,7 @@ It was designed for analysts, historians, coaches, athletes, policymakers, and t
 
 ## Design Explanation
 
-The design focuses on clear storytelling supported by consistent use of color, annotation, and interactivity.  
+The design emphasizes storytelling through consistent use of color, annotation, and interactivity.  
 The visualization types include line charts for trends, bar charts for comparisons, and bubble charts for individual achievements.
 
 According to **Kirk (2019)**, line charts improve perceptual accuracy by representing quantitative values through proportional line size and position.  
@@ -72,7 +70,7 @@ The deliberate use of **gold, silver, and bronze** aligns the story visually and
 Interactivity was integrated through hover tooltips and annotations to guide user attention toward key findings.  
 These design choices make the presentation both educational and engaging.
 
-![Dashboard design and interactivity](docs/screenshots/04_chart_design_example.png)
+![Dashboard design and interactivity](./screenshot/04_chart_design_example.png)
 
 ---
 
@@ -80,9 +78,9 @@ These design choices make the presentation both educational and engaging.
 
 The final Tableau story presents several connected insights:
 
-- **Participation growth:** Clear increase in athlete participation, particularly among women, from 1896 to 2016.  
-- **Medal comparison:** Norway consistently ranks high among smaller nations, especially in winter sports.  
-- **Individual excellence:** Certain athletes dominate the medal tables, demonstrating the country’s success in cultivating elite competitors.  
+- **Participation growth** – steady increase in female participation over time  
+- **Medal comparison** – Norway maintains top rankings in winter sports  
+- **Individual excellence** – standout athletes dominate medal totals  
 
 ---
 
@@ -90,12 +88,12 @@ The final Tableau story presents several connected insights:
 
 The visualization results lead to several practical insights and recommendations:
 
-- **Focus on key sports:** Continue investing in disciplines with strong historical medal yields, such as skiing, rowing, and athletics.  
-- **Encourage female participation:** Build on the upward trend of female athletes competing in Olympic events.  
-- **Prioritize age 20–25:** Data shows this age group consistently wins the most medals.  
-- **Strengthen winter dominance:** Maintain Norway’s advantage in winter categories to secure more medals in future games.
+- **Focus on key sports** – continue investing in skiing, rowing, and athletics  
+- **Encourage female participation** – build on the positive trend  
+- **Prioritize age 20–25** – group with the highest medal frequency  
+- **Strengthen winter dominance** – maintain Norway’s advantage  
 
-![Recommendations summary](docs/screenshots/05_recommendations_chart.png)
+![Recommendations summary](./screenshot/05_recommendations_chart.png)
 
 ---
 
@@ -108,14 +106,9 @@ The visualization results lead to several practical insights and recommendations
 
 ## Files
 
-**Interactive Dashboard**  
-`Norwegian_Olympics_Dashboard.twbx` – Full Tableau dashboard with interactivity and story design.  
-
-**Report (PDF)**  
-`docs/penetration_case_extended_2024.pdf` – Analytical explanation and visual summary.  
-
-**Screenshots**  
-Located in `docs/screenshots/` folder.  
+- `Norwegian_Olympics_Dashboard.twbx` – Interactive Tableau dashboard  
+- `docs/penetration_case_extended_2024.pdf` – Full analytical report  
+- Screenshots located in `screenshot/` folder.  
 
 ---
 
@@ -127,5 +120,4 @@ Data Visualization & Cybersecurity Enthusiast
 
 ---
 
-*© 2024 Mahamed Maki Saine – Created independently as part of an ongoing professional visualization portfolio.*
-
+*© 2024 Mahamed Maki Saine – Created independently for professional portfolio purposes.*
