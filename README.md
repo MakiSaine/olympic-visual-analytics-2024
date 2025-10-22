@@ -106,6 +106,12 @@ The visualization results lead to several practical insights and recommendations
 
 ---
 
+**Datasets**  
+- `athlete_events.csv` – Contains detailed information about Olympic athletes, events, medals, age, gender, and results.  
+- `noc_regions.csv` – Contains National Olympic Committee (NOC) region and country mapping used for merging datasets.
+
+---
+
 ## References
 
 - Kirk, A. (2019). *Data Visualisation: A Handbook for Data Driven Design.* Sage Publications.  
