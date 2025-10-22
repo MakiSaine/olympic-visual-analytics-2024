@@ -113,14 +113,6 @@ The visualization results lead to several practical insights and recommendations
 
 ---
 
-## Files
-
-- `Norwegian_Olympics_Dashboard.twbx` – Interactive Tableau dashboard  
-- `docs/penetration_case_extended_2024.pdf` – Full analytical report  
-- Screenshots are located in the `screenshot` folder  
-
----
-
 ## Author
 
 Created by **Mahamed Maki Saine**    
